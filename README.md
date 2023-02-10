@@ -1,3 +1,5 @@
+[![Node.js CI](https://github.com/vanHeemstraSystems/your-package-name-you-want-to-see-on-npm-lol/actions/workflows/publish.yml/badge.svg)](https://github.com/vanHeemstraSystems/your-package-name-you-want-to-see-on-npm-lol/actions/workflows/publish.yml)
+
 # TSDX User Guide
 
 Congrats! You just saved yourself hours of work by bootstrapping this project with TSDX. Let’s get you oriented with what’s here and how to use it.
