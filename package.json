@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.0.0-development",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -17,9 +17,9 @@
     "lint": "tsdx lint",
     "prepare": "tsdx build",
     "size": "size-limit",
-    "analyze": "size-limit --why"
+    "analyze": "size-limit --why",
+    "semantic-release": "semantic-release"
   },
-  "peerDependencies": {},
   "husky": {
     "hooks": {
       "pre-commit": "tsdx lint"
@@ -47,9 +47,15 @@
   "devDependencies": {
     "@size-limit/preset-small-lib": "^8.1.2",
     "husky": "^8.0.3",
+    "semantic-release-cli": "^5.4.4",
     "size-limit": "^8.1.2",
     "tsdx": "^0.14.1",
     "tslib": "^2.5.0",
-    "typescript": "^4.9.4"
+    "typescript": "^4.9.4",
+    "semantic-release": "^20.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vanHeemstraSystems/your-package-name-you-want-to-see-on-npm-lol.git"
   }
 }
