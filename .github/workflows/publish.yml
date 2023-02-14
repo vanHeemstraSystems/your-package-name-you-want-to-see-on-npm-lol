@@ -16,7 +16,8 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [16.x, 18.x]
+        # node-version: [16.x, 18.x] <== node 16.x is incompatible with semantic-release
+        node-version: [18.x]
         os: [ubuntu-latest, windows-latest, macos-latest]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
