@@ -40,7 +40,7 @@ You can see the latest releases in the Github repository at https://github.com/v
 After a successful publish of the package to npm, you can view the package on npmjs.com by entering the following in the search on https://npmjs.com:
 
 ```
-@myservings/cereal
+@vanheemstrasystems/your-package-name-you-want-to-see-on-npm-lol
 ```
 
 Or go directly to https://www.npmjs.com/package/@vanheemstrasystems/your-package-name-you-want-to-see-on-npm-lol
