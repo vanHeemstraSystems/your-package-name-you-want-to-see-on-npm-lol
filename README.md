@@ -1,5 +1,56 @@
 [![Node.js CI](https://github.com/vanHeemstraSystems/your-package-name-you-want-to-see-on-npm-lol/actions/workflows/publish.yml/badge.svg)](https://github.com/vanHeemstraSystems/your-package-name-you-want-to-see-on-npm-lol/actions/workflows/publish.yml)
 
+Based on "Create an NPM Package" at https://github.com/vanHeemstraSystems/create-an-npm-package
+
+Based on "Create a Private, Enterprise-Grade, Component Library using React with Senior Databricks Engineer" at https://www.youtube.com/watch?v=AOnAl592CJc
+
+**WARNING**: In order for the automation to successfully push changes to the repository, make sure you have set the following at your repository's "Settings" > "Actions" > "General":
+
+Workflow permissions
+
+- [Checked]: Read and write permissions
+- [Unchecked]: Read repository contents and packages permissions
+
+If the option is disabled, you can enable that option under ORGANIZATION settings not REPO settings.
+
+Organizations's "Settings" > "Actions" > "General":
+
+Workflow permissions
+
+- [Checked]: Read and write permissions
+- [Unchecked]: Read repository contents and packages permissions
+
+# Executive Summary
+
+To commit changes after making file changes run the following command:
+
+```
+$ git add .
+$ npx cz
+```
+
+This will trigger *commitizen (cz)* and you will be prompted to describe your change. 
+
+Follow with ```git push```.
+
+Our Github Actions workflow with automatically build a package from the source code and publish it to npm.
+
+You can see the latest releases in the Github repository at https://github.com/vanHeemstraSystems/your-package-name-you-want-to-see-on-npm-lol/releases
+
+After a successful publish of the package to npm, you can view the package on npmjs.com by entering the following in the search on https://npmjs.com:
+
+```
+@myservings/cereal
+```
+
+Or go directly to https://www.npmjs.com/package/@vanheemstrasystems/your-package-name-you-want-to-see-on-npm-lol
+
+To install the node module package use the following:
+
+```
+$ npm i @vanheemstrasystems/your-package-name-you-want-to-see-on-npm-lol
+```
+
 # TSDX User Guide
 
 Congrats! You just saved yourself hours of work by bootstrapping this project with TSDX. Let’s get you oriented with what’s here and how to use it.
